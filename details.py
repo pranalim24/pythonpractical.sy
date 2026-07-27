@@ -1,0 +1,7 @@
+print("***Student Details***")
+print(input("Enter Student Name:"))
+print(input("Enter College Name:"))
+print(input("Enter Student PRN:"))
+print(input("Enter Student Roll No.:"))
+print(input("Enter Student Address :"))
+print(input("Enter Student ABC Id :"))
