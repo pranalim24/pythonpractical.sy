@@ -2,7 +2,7 @@ print("***Trafic Signal Rule***")
 
 
 signal=input("Enter the signal colour:").lower()   #for uppercase to lowercase
-
+#we can you uppercase() too
 
 if signal == "red":
     print("Action:Stop")
