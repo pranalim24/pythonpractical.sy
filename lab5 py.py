@@ -17,24 +17,24 @@ while True:
     print("2. Show Total Expenses")
     print("3. Add New Expense")
     print("4. Exit")
-    
+
     choice = int(input("Enter your choice: "))
     
     if choice == 1:
-        print("\n Expense List:")
+        print("\nExpense List:")
         for i in range(len(expenses)):
             print(f"Expense{i+1}: {expenses[i]}")
-    elif choice ==2:
+    elif choice == 2:
         print("Total Monthly Expense=", total)
 
-    elif choice ==3:
+    elif choice == 3:
         new_expense = float(input("Enter the new expense amount: "))
         expenses.append(new_expense)
         total += new_expense   #accumulation logic
         print("Expense added successfully.")
-    elif choice ==4:
+    elif choice == 4:
      print("Thank You for using the Monthly Expense Tracker. Goodbye!")
-    break
+     break
     
-else:
-    print("Invalid choice. please try again.")
+    else:
+           print("Invalid choice. please try again.")
