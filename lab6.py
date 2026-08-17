@@ -12,7 +12,7 @@ for i in range(rows):
     print()
 
 
-# Receipt Patter
+# Receipt Pattern
 rows=8
 for i in range(rows):  
     for j in range(20):
