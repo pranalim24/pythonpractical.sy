@@ -1,0 +1,22 @@
+name=input("Enter Student Name:")
+roll_no=int(input("Enter Your Roll-No:"))
+age=int(input("Enter Your Age:"))
+college_name=input("Enter Your College Name:")
+address=input("Enter Your Address:")
+gender=input("Enter Your Gender:")
+abc_id=int(input("Enter Your ABC Id:"))
+caste=input("Enter Your Caste:")
+prn=int(input("Enter Your PRN:"))
+
+print("\n***Student Introduction System***\n")
+
+
+print("Student Name is:",name)
+print("Student Roll-No is:",roll_no)
+print("Student Age is:",age)
+print("Student College Name is:",college_name)
+print("Student Address is:",address)
+print("Student Gender is:",gender)
+print("Student ABC Id:",abc_id)
+print("Student Caste is:",caste)
+print("Student PRN is:",prn)
