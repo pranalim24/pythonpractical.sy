@@ -70,8 +70,9 @@ while True:
             print( "\n{:<5} {:<20} {:<10} {:<10}".format("No.", "Name", "Price", "Qty"))
             print("-" * 45)
             for i in range(len(product_names)):
-                print("{:<5} {:<20} {:<10} {:<10}".format(i + 1, product_names[i], product_prices[i], product_qty[i]))
-            print()
+                print("{:<5} {:<20} {:<10} {:<10}".format(i + 1, product_names[i], product_prices[i], product_qty[i]))   #i+1 is for representing 1
+                                          #serial no instead of 0
+                print()
             
     #--------------------SEARCH-------------------
     elif choice == '5':
@@ -79,7 +80,7 @@ while True:
 
         if name in product_names:
             index = product_names.index(name)
-            print( f"Found -> Name: {product_names[index]},"
+            print( f"Found -> Name: {product_names[index]},"   
                    f"Price: {product_prices[index]}, Qty: {product_qty[index]}\n")
         else:
             print( f"Productt '{name}' not found.\n" )
