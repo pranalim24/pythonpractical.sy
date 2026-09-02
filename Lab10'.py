@@ -90,7 +90,7 @@ while True:
             print( "No products to sort.\n" )
         else:
             combined = list(zip(product_prices, product_names, product_qty))
-            combined.sort()
+            combined.sort()       #for ascending order
 
             product_prices = [item[0] for item in combined]
             product_names = [item[1] for item in combined]
@@ -103,7 +103,7 @@ while True:
                 print( "No products to sort.\n" )
             else:
                 combined = list(zip(product_prices, product_names, product_qty))
-                combined.sort(reverse=True)
+                combined.sort(reverse=True)           #for descending order
     
                 product_prices = [item[0] for item in combined]
                 product_names = [item[1] for item in combined]
